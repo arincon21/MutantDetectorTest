@@ -1,0 +1,17 @@
+
+<div class="container-mutant-detector">
+    <h1 class="title">Detector de Mutantes</h1>
+    <div>
+        <textarea (change)="changeDNA($event)" placeholder="Ingrese la secuencia de ADN" rows="6" cols="50"></textarea>
+    </div>
+    <div>
+        <button (click)="detectIsMutants()">Verificar</button>
+    </div>
+    <div *ngIf="isMutantResult !== undefined">
+        <p *ngIf="isMutantResult">El humano es mutante.</p>
+        <p *ngIf="!isMutantResult">El humano no es mutante.</p>
+    </div>
+    <div *ngIf="isArray !== undefined">
+        <p class="error">Formato Incorrecto</p>
+    </div>
+</div>

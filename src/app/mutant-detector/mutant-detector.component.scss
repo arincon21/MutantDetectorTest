@@ -1,0 +1,49 @@
+.container-mutant-detector{
+    min-height: 300px;
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: block;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 40px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 40px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 40px 5px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    padding: 20px;
+    font-family: monospace;
+
+    .title{
+        color: #fff;
+    }
+
+    textarea{
+        background-color: #2E2E33;
+        color: #28BF21;
+        outline: 0;
+        resize: none;
+        font-size: 16px;
+        border-radius: 5px;
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    button{
+        height: 50px;
+        width: 100%;
+        background: #D1E043;
+        outline: oldlace;
+        border: 0;
+        border-radius: 5px;
+        font-family: monospace;
+    }
+
+    p{
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .error{
+        color: #FF5C40;
+    }
+}
